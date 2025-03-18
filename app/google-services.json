@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1084713006192",
+    "firebase_url": "https://appmxhkotli-default-rtdb.firebaseio.com",
+    "project_id": "appmxhkotli",
+    "storage_bucket": "appmxhkotli.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084713006192:android:22701e2df0bd40900c30b5",
+        "android_client_info": {
+          "package_name": "com.example.foodapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1084713006192-6rd4bg0gk7i688bq0er1hukngrkpq5fr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.foodapp",
+            "certificate_hash": "f30c3aab663e538311edc9429d1126a578872d10"
+          }
+        },
+        {
+          "client_id": "1084713006192-ooao180be8ae2f64gksrh2bp3f1vmtgm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg4EdJxRrf7_Wxyi30RSGywGdGqH5jz8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1084713006192-ooao180be8ae2f64gksrh2bp3f1vmtgm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
