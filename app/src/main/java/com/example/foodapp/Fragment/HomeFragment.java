@@ -384,9 +384,9 @@ public class HomeFragment extends Fragment {
 
     private List<photoBanner> getListPhoto() {
         List<photoBanner> list = new ArrayList<>();
+        list.add(new photoBanner(R.drawable.ban3));
         list.add(new photoBanner(R.drawable.panner1));
         list.add(new photoBanner(R.drawable.panner2));
-        list.add(new photoBanner(R.drawable.panner3));
 
         return list;
     }
