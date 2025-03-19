@@ -53,7 +53,7 @@
             android:backgroundTint="@color/orange_btn_nav"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
-            android:text="Profile Dành cho admin"
+            android:text="Profile"
             />
         <Button
             android:id="@+id/btn_goToListUser"

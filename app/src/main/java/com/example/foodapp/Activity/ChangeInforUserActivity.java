@@ -183,16 +183,23 @@ public class ChangeInforUserActivity extends AppCompatActivity {
         mRefUser.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
+                listUser.clear();  // Xóa dữ liệu cũ tránh trùng lặp
+
                 for (DataSnapshot dataSnapshot : snapshot.getChildren()) {
                     User mObjUser = dataSnapshot.getValue(User.class);
                     if (mObjUser != null && mObjUser.getPhoneNumber().equals(email)) {
                         listUser.add(mObjUser);
                     }
-                    objUser = listUser.get((listUser.size()) - 1);
+                }
+
+                if (!listUser.isEmpty()) {  // Kiểm tra danh sách có dữ liệu trước khi lấy phần tử cuối
+                    objUser = listUser.get(listUser.size() - 1);
                     Glide.with(getApplicationContext()).load(objUser.getImg()).error(R.drawable.avatar).into(imgUser);
                     edBirthday.setText(objUser.getBirthday());
                     edNameUser.setText(objUser.getName());
                     edPhoneNumber.setText(objUser.getPhoneNumber2());
+                } else {
+                    Log.e("ERROR", "Không tìm thấy người dùng với email: " + email);
                 }
             }
 
