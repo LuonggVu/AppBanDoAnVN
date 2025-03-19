@@ -14,20 +14,19 @@
     <EditText
         android:id="@+id/ed_sdt"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="48dp"
         android:background="@drawable/custom_fillter"
-        android:hint="Số điện thoại"
-        android:padding="8dp"
-        />
+        android:hint="Email"
+        android:padding="8dp" />
+
     <EditText
-        android:layout_marginTop="12dp"
         android:id="@+id/ed_passwd"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
         android:background="@drawable/custom_fillter"
         android:hint="Mật khẩu"
-        android:padding="8dp"
-        />
+        android:padding="8dp" />
 
     <RelativeLayout
         android:layout_width="match_parent"

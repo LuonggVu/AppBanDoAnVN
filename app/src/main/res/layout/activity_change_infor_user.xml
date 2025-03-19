@@ -41,38 +41,39 @@
                 android:src="@drawable/avatar"
                 android:layout_gravity="center"
                 />
+
             <EditText
                 android:id="@+id/ed_nameUser"
+                android:hint="Nhập tên người dùng"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:background="@drawable/bg_edittext"
-                android:layout_marginTop="10dp"
+                android:layout_height="48dp"
                 android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
-                android:padding="10dp"
-                />
+                android:background="@drawable/bg_edittext"
+                android:padding="10dp" />
+
             <EditText
                 android:id="@+id/ed_phoneNumber"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:background="@drawable/bg_edittext"
-                android:layout_marginTop="10dp"
+                android:layout_height="48dp"
                 android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
+                android:background="@drawable/bg_edittext"
                 android:hint="Số điện thoại"
-                android:padding="10dp"
-                />
+                android:padding="10dp" />
+
             <EditText
                 android:id="@+id/ed_birthday"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:background="@drawable/bg_edittext"
-                android:layout_marginTop="10dp"
+                android:layout_height="48dp"
                 android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
-                android:padding="10dp"
+                android:background="@drawable/bg_edittext"
                 android:hint="Ngày sinh"
-                />
+                android:padding="10dp" />
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
