@@ -81,6 +81,7 @@
         <androidx.viewpager.widget.ViewPager
             android:id="@+id/id_pagerBanner"
             android:layout_width="match_parent"
+            android:contentDescription="Banner quang cao"
             android:layout_height="220dp"
             android:layout_margin="8dp"
             android:layout_marginTop="10dp" />
